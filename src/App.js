@@ -12,7 +12,7 @@ const App = () => {
   }
 
   const fDecr = ()=>{
-    { (number > 0) ? setNumber(number - 1) : alert("SORRY, Zero Limit Reached") }
+    { (number > 0) ? setNumber(number - 1) : alert("NO Limit") }
   }
   return (
     <>
