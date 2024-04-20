@@ -11,8 +11,8 @@ const App = () => {
     setNumber(number + 1)
   }
 
-  const fDecr = ()=>{
-    { (number > 0) ? setNumber(number - 1) : alert("NO Limit") }
+  const fDecr = () => {
+    { (number > 0) ? setNumber(number - 1) : alert("NO Limit.") }
   }
   return (
     <>
@@ -25,8 +25,6 @@ const App = () => {
           </div>
         </div>
       </div>
-
-
 
     </>
   )
